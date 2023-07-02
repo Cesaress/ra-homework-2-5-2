@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import moment from "moment";
-import useJsonFetch from "../hoocks/useJsonFetch.js";
+import useJsonFetch from "../hooks/useJsonFetch.js";
 import PostsContext from "../contexts/PostsContext.js";
 moment.lang("ru");
 

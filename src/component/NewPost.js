@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 // eslint-disable-next-line no-unused-vars
 import { Redirect } from "react-router-dom";
 import PostsContext from "../contexts/PostsContext.js";
-import useJsonFetch from "../hoocks/useJsonFetch.js";
+import useJsonFetch from "../hooks/useJsonFetch.js";
 
 export default function NewPost(props) {
   // eslint-disable-next-line no-unused-vars

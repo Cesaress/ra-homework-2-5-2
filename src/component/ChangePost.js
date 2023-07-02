@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useContext } from "react";
-import useJsonFetch from "../hoocks/useJsonFetch.js";
+import useJsonFetch from "../hooks/useJsonFetch.js";
 import PostsContext from "../contexts/PostsContext.js";
 
 export default function ChangePost(props) {
